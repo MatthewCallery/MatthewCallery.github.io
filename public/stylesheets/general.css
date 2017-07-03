@@ -1,0 +1,14 @@
+/* Navigation items */
+.nav-item a,
+a.nav-item {
+  font-size: 1.2rem;
+}
+
+.nav-item img {
+  max-height: 2.5rem;
+}
+
+.hero .nav {
+  background: none;
+  box-shadow: 0 1px 0 rgba(219, 219, 219, 0.8);
+}

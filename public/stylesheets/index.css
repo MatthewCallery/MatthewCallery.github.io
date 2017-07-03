@@ -1,0 +1,22 @@
+/* Card items */
+
+.card p {
+  font-size: 1.4rem;
+}
+
+.noTopPad {
+  padding-top: 0;
+}
+
+.center-card-item {
+  justify-content: center;
+}
+
+.left-justify {
+  justify-content: flex-start;
+}
+
+.increase-button-margin {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
