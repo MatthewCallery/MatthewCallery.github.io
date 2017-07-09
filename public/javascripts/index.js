@@ -17,3 +17,11 @@ function clientRight(rNum) {
     rThree.className = "box has-text-centered client-hidden";
   }
 }
+
+function clientModal(activate) {
+  if(activate == true) {
+    document.getElementById("id_clientModal").className += " is-active"
+  } else {
+    document.getElementById("id_clientModal").className = "modal"
+  }
+}
