@@ -12,6 +12,7 @@
   <link href="/stylesheets/index.css" rel="stylesheet" type="text/css"/>
   <!-- javascripts -->
   <script src="/javascripts/general.js"></script>
+  <script src="/javascripts/index.js"></script>
   <title>Wrek | Find Trusted Recruitment Agents</title>
 </head>
 <body class="layout-default" style="zoom: 1;">
@@ -98,10 +99,11 @@
                   </a>
                 </p>
               </div>
-              <div class="box has-text-centered" style="padding:0.7rem;">
+              <div class="box has-text-centered"
+              style="padding:0.7rem; margin:0;" id="id_client1">
                 <nav class="level is-mobile">
                   <div class="level-item has-text-centered">
-                    <a class="icon">
+                    <a class="icon" onclick="clientRight(2)">
                       <i class="fa fa-arrow-circle-left"></i>
                     </a>
                   </div>
@@ -109,7 +111,67 @@
                     <p>Clients</p>
                   </div>
                   <div class="level-item has-text-centered">
-                    <a class="icon">
+                    <a class="icon" onclick="clientRight(1)">
+                      <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+              <div class="box has-text-centered client-hidden"
+              style="padding:0.7rem; margin:0;" id="id_client2">
+                <nav class="level is-mobile">
+                  <div class="level-item has-text-centered">
+                    <a class="icon" onclick="clientRight(3)">
+                      <i class="fa fa-arrow-circle-left"></i>
+                    </a>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <span class="icon is-medium">
+                      <i class="fa fa-amazon"></i>
+                    </span>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <span class="icon is-medium">
+                      <i class="fa fa-cc-paypal"></i>
+                    </span>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <span class="icon is-medium">
+                      <i class="fa fa-angellist"></i>
+                    </span>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <a class="icon" onclick="clientRight(2)">
+                      <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+              <div class="box has-text-centered client-hidden"
+              style="padding:0.7rem;" id="id_client3">
+                <nav class="level is-mobile">
+                  <div class="level-item has-text-centered">
+                    <a class="icon" onclick="clientRight(1)">
+                      <i class="fa fa-arrow-circle-left"></i>
+                    </a>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <span class="icon is-medium">
+                      <i class="fa fa-twitch"></i>
+                    </span>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <span class="icon is-medium">
+                      <i class="fa fa-tripadvisor"></i>
+                    </span>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <span class="icon is-medium">
+                      <i class="fa fa-foursquare"></i>
+                    </span>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <a class="icon" onclick="clientRight(3)">
                       <i class="fa fa-arrow-circle-right"></i>
                     </a>
                   </div>
