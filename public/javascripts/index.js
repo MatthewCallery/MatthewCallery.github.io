@@ -25,3 +25,11 @@ function clientModal(activate) {
     document.getElementById("id_clientModal").className = "modal"
   }
 }
+
+function placementModal(activate) {
+  if(activate == true) {
+    document.getElementById("id_placementModal").className += " is-active"
+  } else {
+    document.getElementById("id_placementModal").className = "modal"
+  }
+}

@@ -100,7 +100,7 @@
                 <p>
                   <strong>93%</strong>
                   Placement Success
-                  <a class="icon">
+                  <a class="icon" onclick="placementModal(true)">
                     <i class="fa fa-question-circle-o"></i>
                   </a>
                 </p>
@@ -201,6 +201,20 @@
       <header class="modal-card-head">
         <p class="modal-card-title">Client Rating</p>
         <button class="delete" onclick="clientModal(false)"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>Something</p>
+      </section>
+    </div>
+  </div>
+
+  <!-- Placement success modal -->
+  <div class="modal" id="id_placementModal">
+    <div class="modal-background" onclick="placementModal(false)"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Placement Success</p>
+        <button class="delete" onclick="placementModal(false)"></button>
       </header>
       <section class="modal-card-body">
         <p>Something</p>
