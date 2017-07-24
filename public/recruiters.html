@@ -18,30 +18,31 @@
     <!-- Navigation bar -->
     <div class="hero-head">
       <div class="container">
-        <nav class="nav">
+        <nav class="navbar">
           <!-- Left side of nav-bar -->
-          <div class="nav-left">
-            <a class="nav-item is-brand" href="index.html">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
               <img src="/images/logo.svg" alt="Wrek logo"/>
             </a>
+            <!-- hamburger menu is only visible on mobile -->
+            <div class="navbar-burger" id="nav-toggle" onclick="navToggle(), navMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
-          <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-          <span class="nav-toggle" id="nav-toggle" onclick="navToggle(), navMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-          <!-- Right side of nav-bar. Hidden on mobile -->
-          <div class="nav-right nav-menu" id="nav-menu">
-            <a class="nav-item is-tab" href="index.html">
-              Home
-            </a>
-            <a class="nav-item is-tab" href="employers.html">
-              Employers
-            </a>
-            <a class="nav-item is-tab is-active" href="recruiters.html">
-              Recruiters
-            </a>
+          <div class="navbar-menu" id="nav-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="index.html">
+                Home
+              </a>
+              <a class="navbar-item" href="employers.html">
+                Employers
+              </a>
+              <a class="navbar-item show-is-active">
+                Recruiters
+              </a>
+            </div>
           </div>
         </nav>
       </div>
@@ -178,6 +179,36 @@
               for lifetime billings with the client that exceed £20,000.
             </li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero has-text-centered is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Subscribe for updates about Wrek
+        </h1>
+        <h2 class="subtitle">
+          Wrek is still in development and we'd love your input
+        </h2>
+        <div class="columns">
+          <div class="column is-one-third is-offset-one-third">
+            <div class="field is-grouped has-addons-centered">
+              <p class="control has-icons-left is-expanded">
+                <input class="input" type="text" placeholder="Your email address"/>
+                <span class="icon is-left">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </p>
+              <p class="control">
+                <a class="button is-outlined">
+                  Sign Up
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

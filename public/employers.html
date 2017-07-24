@@ -19,30 +19,31 @@
   <section class="hero has-text-centered">
     <div class="hero-head">
       <div class="container">
-        <nav class="nav">
+        <nav class="navbar">
           <!-- Left side of nav-bar -->
-          <div class="nav-left">
-            <a class="nav-item is-brand" href="index.html">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
               <img src="/images/logo.svg" alt="Wrek logo"/>
             </a>
+            <!-- hamburger menu is only visible on mobile -->
+            <div class="navbar-burger" id="nav-toggle" onclick="navToggle(), navMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
-          <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-          <span class="nav-toggle" id="nav-toggle" onclick="navToggle(), navMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-          <!-- Right side of nav-bar. Hidden on mobile -->
-          <div class="nav-right nav-menu" id="nav-menu">
-            <a class="nav-item is-tab" href="index.html">
-              Home
-            </a>
-            <a class="nav-item is-tab is-active" href="employers.html">
-              Employers
-            </a>
-            <a class="nav-item is-tab" href="recruiters.html">
-              Recruiters
-            </a>
+          <div class="navbar-menu" id="nav-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="index.html">
+                Home
+              </a>
+              <a class="navbar-item show-is-active">
+                Employers
+              </a>
+              <a class="navbar-item" href="recruiters.html">
+                Recruiters
+              </a>
+            </div>
           </div>
         </nav>
       </div>
@@ -68,6 +69,11 @@
   <section class="hero has-text-centered is-primary">
     <div class="hero-body">
       <div class="container">
+        <div class="content is-large">
+          <h1 class="title">
+            How It Works
+          </h1>
+        </div>
         <!-- Images explaining how it works -->
         <div class="box">
           <div class="columns">

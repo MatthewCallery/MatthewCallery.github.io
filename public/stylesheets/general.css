@@ -1,14 +1,19 @@
 /* Navigation items */
-.nav-item a,
-a.nav-item {
+.navbar-item a,
+a.navbar-item {
   font-size: 1.2rem;
 }
 
-.nav-item img {
+.navbar-item img {
   max-height: 2.5rem;
 }
 
-.hero .nav {
+.show-is-active {
+  color: #00d1b2;
+  border-bottom: 3px solid #00d1b2;
+}
+
+.hero .navbar {
   background: none;
   box-shadow: 0 1px 0 rgba(219, 219, 219, 0.8);
 }
